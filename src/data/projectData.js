@@ -9,6 +9,7 @@ import PortfolioDev from "../assets/img-projects/PortfolioDev.jpg";
 import VintageTone from "../assets/img-projects/vintageToneApp.jpg";
 import AstroEcommers from "../assets/img-projects/astroEcommers.jpg";
 import CvBuilder from "../assets/img-projects/CvBuilder.png";
+import ChatAi from "../assets/img-projects/ChatAI.png";
 
 export const proyectos = [
   {
@@ -29,6 +30,16 @@ export const proyectos = [
     tecnologias: ["React", "Tailwind", "Express", "MongoDB"],
     demo: "https://react-e-commerce-three-phi.vercel.app",
     codigo: "https://github.com/Lautaro-R-collins/React-E-commerce.git",
+    categoria: "fullstack",
+  },
+  {
+    titulo: "Chat AI",
+    descripcion:
+      "Aplicación de chatbot impulsada por inteligencia artificial para proporcionar asistencia automatizada.",
+    imagen: ChatAi.src,
+    tecnologias: ["React", "Node.js", "Express", "MongoDB"],
+    demo: "https://multi-model-ai-chat-platform.vercel.app",
+    codigo: "https://github.com/Lautaro-R-collins/Multi-Model-AI-Chat-Platform.git",
     categoria: "fullstack",
   },
   {
@@ -174,6 +185,16 @@ export const proyectos = [
     tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
     demo: "https://back-express-todo.onrender.com",
     codigo: "https://github.com/Lautaro-R-collins/Back-express-todo.git",
+    categoria: "backend",
+  },
+    {
+    titulo: "API Chat AI",
+    descripcion:
+      "API RESTful construida con Express y MongoDB con Registro de usuarios y login con JWT.",
+    imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
+    tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
+    demo: "https://multi-model-ai-chat-platform.vercel.app",
+    codigo: "https://github.com/Lautaro-R-collins/Multi-Model-AI-Chat-Platform/tree/main/backend",
     categoria: "backend",
   },
   {
