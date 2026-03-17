@@ -1,0 +1,34 @@
+---
+import { proyectos } from "../../data/projectData";
+import ProjectCard from "../project/projectCard.astro"
+---
+
+<section class="site-container mt-14 mx-auto max-w-6xl px-4">
+  <div class="site-container mt-14">
+    <h2
+      class="text-4xl font-bold flex flex-col items-center gap-6 text-center whitespace-nowrap text-white md:flex-row md:items-center md:text-start"
+    >
+      <span class="drop-shadow-[2px_2px_0_#7836cf]">Projects</span>
+      <span
+        class="hidden h-1.5 grow rounded-lg drop-shadow-[2px_2px_0_#0debd8] bg-[#7836cf] md:block"
+      ></span>
+    </h2>
+  </div>
+  <div
+    id="projects-container"
+    class="4xl:px-96 flex flex-wrap justify-center gap-5 px-3 pt-5"
+  >
+    {
+      proyectos.map((proyecto, index) => (
+        <ProjectCard
+          index={index}
+          titulo={proyecto.titulo}
+          descripcion={proyecto.descripcion}
+          imagen={proyecto.imagen}
+          tecnologias={proyecto.tecnologias}
+          codigo={proyecto.codigo}
+        />
+      ))
+    }
+  </div>
+</section>
