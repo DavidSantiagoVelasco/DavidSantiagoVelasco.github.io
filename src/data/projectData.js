@@ -4,6 +4,7 @@ import reactChess from "../assets/img-projects/reactChess.jpeg";
 import apu from "../assets/img-projects/apu.jpeg";
 import usersMessaging from "../assets/img-projects/usersMessaging.jpeg";
 import buenaVida from "../assets/img-projects/buenaVida.jpeg";
+import frugalApp from "../assets/img-projects/frugalApp.jpg"
 
 export const proyectos = [
   {
@@ -60,5 +61,17 @@ export const proyectos = [
     ],
     codigo:
       "https://github.com/DavidSantiagoVelasco/Users_Menssaging_Notification",
+  },
+  {
+    titulo: "Frugal App",
+    descripcion:
+      "Built a personal finance mobile application with Flutter, featuring multiple wallets and transaction tracking for organized financial management. Integrated Cloud Firestore for real-time data storage and synchronization.",
+    imagen: frugalApp.src,
+    tecnologias: [
+      "Flutter",
+      "Firestore"
+    ],
+    codigo:
+      "https://github.com/DavidSantiagoVelasco/FrugalApp",
   },
 ];
